@@ -84,6 +84,8 @@
           - /opt/appdata/traefik/acme:/etc/traefik/acme
           - /home/patrick/certs/craig.com.key:/craig.com.key
           - /home/patrick/certs/craig.com.pem:/craig.com.pem
+          - /home/patrick/certs/craig.com.key:/plxtv.com.key
+          - /home/patrick/certs/craig.com.pem:/plxtv.com.pem
         restart_policy: unless-stopped
         state: started
         networks:
