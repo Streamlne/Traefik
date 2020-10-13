@@ -29,6 +29,10 @@ keyFile = "/craig.com.key"
 [entryPoints.monitor]
 address = ":8081"
 
+[file]
+filename = ""/home/patrick/Traefikrules/rules.toml""
+watch = true
+
 #[retry]
 
 #[acme]
